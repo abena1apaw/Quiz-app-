@@ -46,10 +46,10 @@ render() {
 <input type="text"
 placeholder="type to do here..."
 value={this.state.newItem}
-onchange={e => this.updateInput("newItem", e.target.value)}
+onChange={e => this.updateInput("newItem", e.target.value)}
 />
 <button
-onclick={() => this.addItem()}
+onClick={() => this.addItem()}
 >
 Add
 </button>
